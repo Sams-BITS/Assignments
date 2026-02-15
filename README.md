@@ -39,28 +39,28 @@ Total 6 models used
 # ------------------------------------------------------------------------------------
 # ML Model Name          | Observation about model performance                       |
 # ------------------------------------------------------------------------------------
-#                        |                                                           |
-# Logistic Regression    |                                                           |
+#                        | Performs well overall, but recall is weaker it missed     |
+# Logistic Regression    | more tree based models good baseline model but not the    |
+#                        | strongest                                                 |
+# ------------------------------------------------------------------------------------
+#                        | High accuracy and balanced precision/recall. Slightly     |
+# Decision Tree          | Less accurate compared to ensemble methods                |
 #                        |                                                           |
 # ------------------------------------------------------------------------------------
-#                        |                                                           |
-# Decision Tree          |                                                           |
-#                        |                                                           |
-# ------------------------------------------------------------------------------------
-#                        |                                                           |
-# K Nearest Neighbours   |                                                           |
+#                        | Similar to Logistic regression, good but not same as      |
+# K Nearest Neighbours   | ensembles, sensitive to dataset size                      |
 #                        |                                                           |
 # ------------------------------------------------------------------------------------
-#                        |                                                           |
-# Naive Bayes            |                                                           |
-#                        |                                                           |
+#                        | Performs better than Logistic Regression and KNN, but not |
+# Naive Bayes            | as strong as tree‑based ensembles. Simple and fast, but   |
+#                        | less powerful.                                            |
 # ------------------------------------------------------------------------------------
-#                        |                                                           |
-# Random Forest          |                                                           |
-#                        |                                                           |
+#                        | Excellent performance, robust across metrics. Ensemble    |
+# Random Forest          | averaging reduces overfitting compared to a single        |
+#                        | decision tree                                             |
 # ------------------------------------------------------------------------------------
-#                        |                                                           |
-# XGBoost                |                                                           |
-#                        |                                                           |
+#                        | Best overall performer. Extremely high accuracy and AUC   |
+# XGBoost                | with balanced precision and recall. Likely the most       |
+#                        | reliable model for deployment.                            |
 # ------------------------------------------------------------------------------------
   
