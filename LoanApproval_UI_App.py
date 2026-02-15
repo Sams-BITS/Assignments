@@ -47,23 +47,7 @@ def calculate_model_metrics(y_true_encoded, y_pred, model_name):
         "MCC Score": matthews_corrcoef(y_true_encoded, y_pred)
         }
         return metrics
-
-        
-        # Plot confusion matrix
-        cm = confusion_matrix(y_true_encoded, y_pred)
-        plt.figure(figsize=(6, 4))
-        plt.imshow(cm, interpolation="nearest", cmap=plt.cm.Blues)
-        plt.title("Confusion Matrix")
-        plt.colorbar()
-        tick_marks = np.arange(len(set(y_true_encoded)))
-        plt.xticks(tick_marks, tick_marks)
-        plt.yticks(tick_marks, tick_marks)
-        plt.xlabel("Predicted Label")
-        plt.ylabel("True Label")
-        plt.tight_layout()
-        st.pyplot(plt)
-
-
+      
 
 #Main function to run the app
 def main():
