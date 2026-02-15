@@ -3,7 +3,6 @@ pandas
 numpy
 matplotlib
 scikit-learn
-cross_val_score
 GridSearchCV
 StandardScaler
 LabelEncoder
@@ -16,18 +15,6 @@ GradientBoostingClassifier
 VotingClassifier
 AdaBoostClassifier
 BaggingClassifier
-score
-precision_score
-recall_score
-f1_score
-confusion_matrix
-classification_report
-roc_curve
-auc
-precision_recall_curve
-average_precision_score
-roc_auc_score
-matthews_corrcoef
 joblib
 seaborn
 warnings
