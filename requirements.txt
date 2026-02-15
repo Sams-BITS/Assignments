@@ -6,11 +6,3 @@ scikit-learn
 joblib
 seaborn
 kagglehub
-XGBClassifier
-ColumnTransformer
-Pipeline
-matplotlib.pyplot
-RandomForestClassifier
-XGBClassifier
-OneHotEncoder
-
