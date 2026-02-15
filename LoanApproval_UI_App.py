@@ -47,10 +47,13 @@ def calculate_model_metrics(y_true_encoded, y_pred, model_name):
         "MCC Score": matthews_corrcoef(y_true_encoded, y_pred)
         }
         return metrics
-      
 
 #Main function to run the app
 def main():
+
+    test_file_name = "loan_approval_test_dataset_" + str(pd.Timestamp.now().strftime("%Y%m%d%H%M%S")) + ".csv"
+    with open("./loan_approval_test_dataset.csv", "r") as f:
+        st.download_button("Click here to download test dataset", data = f.read(), file_name=test_file_name, mime="text/plain")
     uploaded_file, model_choices = load_test_data()
     if uploaded_file is not None:
         df = pd.read_csv(uploaded_file)
