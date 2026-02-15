@@ -3,7 +3,6 @@ pandas
 numpy
 matplotlib
 scikit-learn
-train_test_split
 cross_val_score
 GridSearchCV
 StandardScaler
