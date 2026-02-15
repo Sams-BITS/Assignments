@@ -3,7 +3,6 @@ pandas
 numpy
 matplotlib
 scikit-learn
-GridSearchCV
 StandardScaler
 LabelEncoder
 LogisticRegression
