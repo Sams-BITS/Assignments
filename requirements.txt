@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+matplotlib
+sklearn
+joblib
+seaborn
+warnings
+kagglehub
+os
+KaggleApi
+XGBClassifier
+ColumnTransformer
+Pipeline
