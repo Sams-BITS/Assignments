@@ -3,17 +3,6 @@ pandas
 numpy
 matplotlib
 scikit-learn
-StandardScaler
-LabelEncoder
-LogisticRegression
-DecisionTreeClassifier
-KNeighborsClassifier
-SVC
-RandomForestClassifier
-GradientBoostingClassifier
-VotingClassifier
-AdaBoostClassifier
-BaggingClassifier
 joblib
 seaborn
 warnings
