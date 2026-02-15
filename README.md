@@ -1,3 +1,6 @@
+# Name: M. SAMPATH KUMAR
+# Student Id: 2025aa05807
+
 #### Problem Statement ####
 
 Implement multiple classification models, build a streamlit app to demonstrate the each models metrics for the given dataset.
