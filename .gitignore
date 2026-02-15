@@ -1,0 +1,42 @@
+# Ignore data folders and files
+data/
+*.csv
+*.tsv
+*.xlsx
+
+# Ignore model artifacts
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# Ignore Python cache and build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore environment and virtualenv folders
+.env
+.venv/
+env/
+venv/
+
+# Ignore Streamlit cloud cache
+.streamlit/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
